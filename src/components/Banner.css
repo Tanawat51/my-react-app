@@ -1,0 +1,37 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.banner-bg{
+    height: 500px;
+    background: url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.banner-text{
+    color:#fff;
+    text-align: center;
+}
+.banner-btn{
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn:hover{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
